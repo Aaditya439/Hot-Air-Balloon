@@ -10,7 +10,7 @@ balloonAnimation = loadAnimation("Hot Air Ballon-02.png", "Hot Air Ballon-02.png
 }
 
 function setup() { 
-  createCanvas(1200,650);
+  createCanvas(1500,650);
   Database = firebase.database();
 
   balloon = createSprite(200, 650, 50, 50);
